@@ -6,9 +6,9 @@ See COPYRIGHT section in the ResourcePool::Resource::SOAP::Lite(3pm) manpage.
 
 Recent Changes
 --------------
-  *  This release included a tiny Call command for SOAP::Lite. So you 
-     can use the fail over algorithms of ResourcePool::LoadBalancer 
-     for SOAP RPC calls. 
+  *  A bug which caused useless error messages when a problem with a 
+     server happend has been fixed. The error message does now 
+     include the proxy URL of the failed server. 
 
 Installation
 ------------

@@ -1,7 +1,7 @@
 #*********************************************************************
 #*** ResourcePool/Command/SOAP/Lite/Call.pm
 #*** Copyright (c) 2003 by Markus Winand <mws@fatalmind.com>
-#*** $Id: Call.pm,v 1.2 2003/02/22 17:07:44 mws Exp $
+#*** $Id: Call.pm,v 1.3 2003/05/07 20:38:09 mws Exp $
 #*********************************************************************
 package ResourcePool::Command::SOAP::Lite::Call;
 
@@ -11,7 +11,7 @@ use strict;
 use SOAP::Lite;
 use vars qw(@ISA $VERSION);
 
-$VERSION = "1.0100";
+$VERSION = "1.0101";
 push @ISA, qw(ResourcePool::Command);
 
 sub new($$) {

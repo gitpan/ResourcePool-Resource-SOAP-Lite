@@ -1,7 +1,7 @@
 #*********************************************************************
 #*** ResourcePool::Factory::SOAP::Lite
 #*** Copyright (c) 2003 by Markus Winand <mws@fatalmind.com>
-#*** $Id: Lite.pm,v 1.2 2003/02/22 17:07:47 mws Exp $
+#*** $Id: Lite.pm,v 1.4 2003/05/07 20:38:10 mws Exp $
 #*********************************************************************
 
 package ResourcePool::Factory::SOAP::Lite;
@@ -11,7 +11,7 @@ use strict;
 use ResourcePool::Resource::SOAP::Lite;
 use ResourcePool::Factory;
 
-$VERSION = "1.0100";
+$VERSION = "1.0101";
 push @ISA, "ResourcePool::Factory";
 
 sub new($$) {
@@ -31,6 +31,11 @@ sub create_resource($) {
 	return ResourcePool::Resource::SOAP::Lite->new(
 		  $self->{PROXYURL}
 	);
+}
+
+sub info($) {
+	my ($self) = @_;
+	return $self->{PROXYURL};
 }
 
 1;
