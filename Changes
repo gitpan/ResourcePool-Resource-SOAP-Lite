@@ -1,5 +1,9 @@
 Changelog for ResourcePool::Resource::SOAP::Lite
 
+V1.0102 - 2009-11-25
+
+  * Fixed the online testcase to work with my new homepage.
+
 V1.0101 - 2003-05-07
 
   *  A bug which caused useless error messages when a problem with a 

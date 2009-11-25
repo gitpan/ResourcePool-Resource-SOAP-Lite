@@ -1,6 +1,6 @@
 ResourcePool::Resource::SOAP::Lite - SOAP::Lite bindings for ResourcePool
 
-Copyright (c) 2003 by Markus Winand <mws@fatalmind.com>
+Copyright (c) 2003-2009 by Markus Winand <mws@fatalmind.com>
 
 See COPYRIGHT section in the ResourcePool::Resource::SOAP::Lite(3pm) manpage.
 

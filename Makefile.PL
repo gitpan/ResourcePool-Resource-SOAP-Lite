@@ -1,7 +1,7 @@
 #*********************************************************************
 #*** Makefile.PL
 #*** Copyright (c) 2003 by Markus Winand <mws@fatalmind.com>
-#*** $Id: Makefile.PL,v 1.3 2003/05/07 20:38:05 mws Exp $
+#*** $Id: Makefile.PL,v 1.4 2009-11-25 10:33:35 mws Exp $
 #*********************************************************************
 
 use ExtUtils::MakeMaker qw(prompt WriteMakefile);
@@ -12,7 +12,7 @@ use Data::Dumper;
 my %opts;
 
 $opts{NAME}      = 'ResourcePool::Resource::SOAP::Lite',
-$opts{VERSION}   = '1.0101';
+$opts{VERSION}   = '1.0102';
 $opts{PREREQ_PM} = {'ResourcePool' => '1.0100'
                    ,'SOAP::Lite'};
 
