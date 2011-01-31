@@ -1,8 +1,11 @@
 Changelog for ResourcePool::Resource::SOAP::Lite
 
+V1.0103 - 2011-01-31
+  *  Re-added the missing POD Documentation
+
 V1.0102 - 2009-11-25
 
-  * Fixed the online testcase to work with my new homepage.
+  *  The testing was fixed to work correctly against my new homepage. 
 
 V1.0101 - 2003-05-07
 

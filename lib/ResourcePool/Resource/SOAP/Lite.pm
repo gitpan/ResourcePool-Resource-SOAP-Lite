@@ -1,7 +1,7 @@
 #*********************************************************************
 #*** ResourcePool::Resource::SOAP::Lite
 #*** Copyright (c) 2003 by Markus Winand <mws@fatalmind.com>
-#*** $Id: Lite.pm,v 1.4 2009-11-25 10:33:35 mws Exp $
+#*** $Id: Lite.pm,v 1.5 2011-01-31 13:49:38 mws Exp $
 #*********************************************************************
 package ResourcePool::Resource::SOAP::Lite;
 
@@ -10,7 +10,7 @@ use strict;
 use SOAP::Lite;
 use ResourcePool::Resource;
 
-$VERSION = "1.0102";
+$VERSION = "1.0103";
 push @ISA, "ResourcePool::Resource";
 
 sub new($$$) {
